@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { ApiService } from '../services/api.service';
+import { ApiService } from '../../services/api.service';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  selector: 'app-us',
+  templateUrl: 'us.page.html',
+  styleUrls: ['us.page.scss']
 })
-export class Tab3Page {
-
+export class UsPage {
+  //object name the data from the api will be bound to
   articles;
   ionViewDidEnter(){
 
